@@ -22,13 +22,18 @@ console.log(job);
 */
 
 console.log(firstName + ' ' + age)
-console.log(firstName + ' ' + 'is' + ' ' + age + ' years old. He is a ' + job +'. Is he Married? ' + isMarried)
+console.log(firstName + ' ' + 'is' + ' ' + age + ' years old. He is a ' + job + '. Is he Married? ' + isMarried)
 
 // variable mutation
 age = 'twenty eight';
 job = 'Driver';
 
-alert(firstName + ' ' + 'is' + ' ' + age + ' years old. He is a ' + job +'. Is he Married? ' + isMarried)
+alert(firstName + ' ' + 'is' + ' ' + age + ' years old. He is a ' + job + '. Is he Married? ' + isMarried)
 
 lastName = prompt('What is his last name?')
+alert('His Name is ' + firstName + ' ' + lastName)
 console.log(firstName + ' ' + lastName)
+
+let js = 'amazing';
+if (js == 'amazing') alert('JavaScript is Fun!!')
+console.log(40 + 8 + 23 - 10);
