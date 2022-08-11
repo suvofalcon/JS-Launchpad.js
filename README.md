@@ -12,6 +12,8 @@ The main page which involves calling javascript files
 
 The java script files
 
-* Getting started with javascript
+* Getting started with javascript - Logging to Console and Alerts
+* Variables
+* 
 
 
