@@ -128,3 +128,15 @@ if (isOldEnough) {
     const yearsLeft = 18 - permitAge
     console.log(`Need to wait another ${yearsLeft} years`)
 }
+
+/**
+ * Tyoe Conversions
+ */
+const inputYear = '1991'
+console.log(inputYear * 2) // Automatically converted to Number because multiplication
+console.log('23' + '13' + 3) // Here + operator converts 3 to string and does string concatenation
+console.log('23' / '2') // both are converted to numbers
+console.log(2 + 3 + 4 + '5') // first three will treated as numbers and then string concatenation
+console.log('10' - '3' - '4' - '2' + '5')
+console.log(Number(inputYear), inputYear)
+console.log(String(23))
